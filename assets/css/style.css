@@ -35,7 +35,6 @@
   min-height: 100vh;
   background-color: var(--background-color);
   color: var(--white-color);
-  font-size: 1.8rem;
   line-height: 2.4rem;
   padding: 2em 1em;
 }
@@ -47,10 +46,12 @@
 .description > p,
 .description > h2 {
   text-align: center;
+  font-size: 1.8rem;
 }
 
 .description > h2 {
   margin-top: 4rem;
+  font-size: 4rem;
 }
 
 form {
@@ -73,8 +74,9 @@ form label {
 }
 
 form input {
+  font-size: 1.8rem;
   border: 2px solid var(--input-border-color);
-  padding: 0.5rem;
+  padding: 0.5em;
   border-radius: 4px;
 }
 
@@ -104,6 +106,7 @@ button[type="submit"]:active {
 
 form + p {
   text-align: center;
+  font-size: 1.8rem;
 }
 
 p > a {
