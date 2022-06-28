@@ -141,7 +141,7 @@ p > a {
   }
 
   .main {
-    padding: 15em 5em 0;
+    padding: 10em 5em 0.8em;
   }
 
   .description > p,
