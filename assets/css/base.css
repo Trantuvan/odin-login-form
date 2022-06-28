@@ -1,0 +1,20 @@
+:root {
+  --white-color: #fff;
+  --text-color: #b9b9b9;
+  --background-color: #000;
+  --btn-color: #596d48;
+  --input-border-color: #e5e7eb;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
