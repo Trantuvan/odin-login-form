@@ -1,0 +1,31 @@
+.hero-section {
+  /* fallback background*/
+  background-color: #008800a6;
+  /* blend backgrounds choose the darker one*/
+  background-blend-mode: multiply;
+  background-image: url(../img/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  width: min(96rem, 100%);
+  padding: 2em 0;
+}
+
+.hero-content {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content > img {
+  object-fit: cover;
+  object-position: center;
+  width: clamp(10vw, 8rem, 30vw);
+}
+
+.hero-text {
+  color: var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: clamp(8vw, 12rem, 10vw);
+}
