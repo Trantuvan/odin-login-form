@@ -157,6 +157,6 @@ p > a {
   }
 
   button[type="submit"] {
-    width: min(12em, 100%);
+    width: min(14em, 100%);
   }
 }
